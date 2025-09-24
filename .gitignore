@@ -1,0 +1,154 @@
+# Build directories
+build/
+build_*/
+cmake-build-*/
+out/
+x64/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+main
+pc_ransac
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# Conan
+conanfile.txt
+conan.lock
+conanbuildinfo.*
+
+# Output data
+output/
+results/
+*.log
+*.csv
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+*.gcov
+*.gcno
+*.gcda
+coverage/
+*.info
+
+# Profiling data
+perf.data
+*.prof
+gmon.out
+massif.out.*
+
+# Memory check reports  
+*.memcheck
+valgrind-*.xml
+
+# Package managers
+vcpkg_installed/
+packages/
+
+# Python (if used for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+*.pdf
+
+# Backup files
+*.bak
+*.orig
+*.rej
+
+# Large data files (uncomment if needed)
+# *.pcd
+# *.ply
+# *.obj
+# *.stl
+
+# Environment files
+.env
+.env.local
+*.out
+*.app
+
+# build
+/build
